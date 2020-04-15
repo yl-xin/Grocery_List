@@ -36,4 +36,9 @@ export class GroceryListComponent {
             "imageUrl": "assets/images/watermelon.png"   
         }
     ];
+    showImage:boolean =false;
+    toggleImage(): void{
+        this.showImage=!this.showImage;
+    }
+    listFilter:string= 'filter term';
 }
