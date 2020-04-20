@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import {GroceryListComponent} from './groceries/grocerieslist.component';
+import {GroceryListComponent} from './groceries/groceries-list.component';
 import {CheckCircleComponent} from 'src/shared/check-circle.component';
 
 @NgModule({

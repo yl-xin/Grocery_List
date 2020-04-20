@@ -2,8 +2,8 @@ import {Component} from '@angular/core';
 import {IGrocery} from './grocery';
 @Component({
     selector:'app-groceries',
-    templateUrl:'grocerieslist.component.html',
-    styleUrls:['./grocerieslist.component.css']
+    templateUrl:'groceries-list.component.html',
+    styleUrls:['./groceries-list.component.css']
 })
 export class GroceryListComponent {
     pageTitle:'Component list';
